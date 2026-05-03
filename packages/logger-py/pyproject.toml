@@ -1,0 +1,40 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "proportione-logger"
+version = "0.1.0a1"
+description = "Logger compartido para servicios Python de Proportione (structlog-based, JSON stdout + texto fichero con padding columnar + latest.log + rotación). Implementa la spec proportione-toolkit."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { file = "../../LICENSE" }
+authors = [
+    { name = "Proportione LDA", email = "info@proportione.com" },
+]
+keywords = ["logger", "structlog", "json", "structured-logging", "proportione", "gcp-cloud-logging"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
+    "Topic :: System :: Logging",
+]
+dependencies = [
+    "structlog>=24.0",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=8.0"]
+
+[project.urls]
+Homepage = "https://github.com/Proportione/proportione-toolkit/tree/main/packages/logger-py"
+Repository = "https://github.com/Proportione/proportione-toolkit"
+Issues = "https://github.com/Proportione/proportione-toolkit/issues"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/proportione_logger"]

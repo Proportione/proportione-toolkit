@@ -1,0 +1,4 @@
+packages:
+  - 'packages/logger-js'
+  # logger-py y logger-php no son paquetes pnpm, se gestionan con uv y composer
+  # respectivamente. Aparecen aquí solo como referencia documental.

@@ -1,0 +1,30 @@
+{
+  "name": "proportione-toolkit",
+  "version": "0.1.0-pre",
+  "private": true,
+  "description": "Utilidades compartidas para los repos de Proportione (logger, secrets, retry, http, firestore). Monorepo con paquetes Node + Python + PHP.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Proportione/proportione-toolkit.git"
+  },
+  "license": "MIT",
+  "author": "Proportione LDA <info@proportione.com>",
+  "homepage": "https://github.com/Proportione/proportione-toolkit",
+  "bugs": {
+    "url": "https://github.com/Proportione/proportione-toolkit/issues"
+  },
+  "scripts": {
+    "test": "pnpm -r test",
+    "build": "pnpm -r build",
+    "changeset": "changeset",
+    "version-packages": "changeset version",
+    "release": "changeset publish"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.27.0"
+  },
+  "packageManager": "pnpm@9.0.0",
+  "engines": {
+    "node": ">=18"
+  }
+}

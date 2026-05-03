@@ -1,0 +1,41 @@
+{
+    "name": "proportione/logger",
+    "description": "Logger compartido para servicios PHP de Proportione (Monolog-based, JSON stdout + texto fichero con padding columnar + latest.log + rotación). Implementa la spec proportione-toolkit.",
+    "type": "library",
+    "license": "MIT",
+    "version": "0.1.0-alpha1",
+    "keywords": ["logger", "monolog", "json", "structured-logging", "proportione", "gcp-cloud-logging", "wordpress"],
+    "authors": [
+        {
+            "name": "Proportione LDA",
+            "email": "info@proportione.com",
+            "homepage": "https://proportione.com"
+        }
+    ],
+    "homepage": "https://github.com/Proportione/proportione-toolkit/tree/main/packages/logger-php",
+    "require": {
+        "php": ">=8.1",
+        "monolog/monolog": "^3.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Proportione\\Logger\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Proportione\\Logger\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit tests"
+    },
+    "minimum-stability": "alpha",
+    "support": {
+        "issues": "https://github.com/Proportione/proportione-toolkit/issues",
+        "source": "https://github.com/Proportione/proportione-toolkit"
+    }
+}

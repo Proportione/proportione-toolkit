@@ -1,0 +1,45 @@
+# Node
+node_modules/
+*.log
+logs/
+npm-debug.log*
+.pnpm-store/
+dist/
+build/
+.turbo/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+.tox/
+.mypy_cache/
+.ruff_cache/
+htmlcov/
+.coverage
+.coverage.*
+
+# PHP
+vendor/
+composer.phar
+.phpunit.result.cache
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Local
+.env
+.env.local
+*.local
