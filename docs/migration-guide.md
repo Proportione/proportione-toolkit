@@ -128,7 +128,7 @@ $log->info('Form submitted', ['email' => $email]);
 
 ---
 
-## Repos: Mensoft, Stackby, Google Ads, Hispanidad, proportione-engineering
+## Repos: Mensoft, Google Ads, Hispanidad, proportione-engineering
 
 Caso `console.log`/`print` directos. Patrón idéntico al de IITD (Node) o al de Aviaria (Python). Migración simple, ~30 min por repo.
 
