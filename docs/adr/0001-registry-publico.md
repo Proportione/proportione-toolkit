@@ -21,7 +21,7 @@ Elegimos **B (público)** para los 3 paquetes del toolkit (`@proportione/logger`
 
 1. **Cero infraestructura nueva**: npmjs.com, pypi.org y packagist.org ya existen y son gratuitos. No hay que configurar GH Packages, GCP Artifact Registry, ni `.npmrc`/`.pip.conf`/`auth.json` con tokens en cada repo.
 
-2. **Consistente con la estrategia GitHub público de Proportione**: la org ya publica `proportione-plugins`, `voxelers-3d`, `engineering`, `claude-code-showcase`. El toolkit cabe en esa narrativa de "estrategia, investigación, publicaciones" sin añadir disonancia.
+2. **Consistente con la estrategia GitHub público de Proportione**: la org ya publica `voxelers-3d` y `engineering`. El toolkit cabe en esa narrativa de "estrategia, investigación, publicaciones" sin añadir disonancia.
 
 3. **El código no contiene datos cliente** ni lógica confidencial. Es código genérico de buenas prácticas (un wrapper sobre Pino / structlog / Monolog). Cero riesgo de leak.
 

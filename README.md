@@ -88,8 +88,6 @@ pnpm test                 # corre tests de los 3
 pnpm changeset            # crea entry de versionado al hacer cambios
 ```
 
-Conexión rápida con el CLAUDE.md del repo si trabajas con Claude Code: [`CLAUDE.md`](CLAUDE.md).
-
 ## Por qué público
 
 Decisión documentada en [`docs/adr/0001-registry-publico.md`](docs/adr/0001-registry-publico.md). TL;DR: cero infra nueva, código sin datos cliente, consistente con la presencia GitHub pública de Proportione.
